@@ -10,12 +10,13 @@
 
 [![downloads](https://img.shields.io/github/downloads/pato05/uploadgram-app/total)](https://github.com/pato05/uploadgram-app/releases)
 [![downloads@latest](https://img.shields.io/github/downloads/pato05/uploadgram-app/latest/total)](https://github.com/pato05/uploadgram-app/releases/latest)
-# Uploadgram App
-The (un)official Uploadgram client
+# Uploadgram Client
+_file sharing has never been this easy_
 
 ## Where can I download the app?
-You can either download the latest version of the app [here](https://github.com/Pato05/uploadgram-app/releases/latest)
-or on f-droid:
+You can either download the latest version of the app on the [Releases](https://github.com/Pato05/uploadgram-app/releases/latest) page
+
+or on [f-droid](https://f-droid.org/packages/com.pato05.uploadgram)
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/com.pato05.uploadgram)
 
@@ -33,7 +34,7 @@ To build the app for Android, simply clone this repository and run `flutter buil
 In the releases there are only APK files which support ARM and ARM64
 
 ## Will this app support desktop?
-a separated client is in the works!
+yesn't
 
 ## Credits
 - [Material.io icons](https://material.io/resources/icons) for the `cloud` icon used in the logo
