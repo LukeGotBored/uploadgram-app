@@ -11,16 +11,17 @@
 [![downloads](https://img.shields.io/github/downloads/pato05/uploadgram-app/total)](https://github.com/pato05/uploadgram-app/releases)
 [![downloads@latest](https://img.shields.io/github/downloads/pato05/uploadgram-app/latest/total)](https://github.com/pato05/uploadgram-app/releases/latest)
 # Uploadgram App
-Uploadgram frontend for Android (and web)
+The (un)official Uploadgram client
 
 ## Where can I download the app?
-Just go to the [latest release](https://github.com/Pato05/uploadgram-app/releases/latest) and click one of the packages or you can download it on F-Droid, by clicking the button below.
+You can either download the latest version of the app [here](https://github.com/Pato05/uploadgram-app/releases/latest)
+or on f-droid:
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/com.pato05.uploadgram)
 
 ## Files descriptions
 - `app-release.apk` is compatible with both ARM and ARM64 (if you are unsure if your device is ARM or ARM64)
-- `app-arm64-v8a-release.apk` is the ARM64 release (compatible with most new devices)
+- `app-arm64-v8a-release.apk` is the ARM64 release (compatible with most of the latest devices)
 - `app-armeabi-v7a-release.apk` is the ARM release
 
 ## How can I build the app for Web?
@@ -31,11 +32,8 @@ Finally, you need to patch the service worker, otherwise the progress is not goi
 To build the app for Android, simply clone this repository and run `flutter build apk --split-per-abi`
 In the releases there are only APK files which support ARM and ARM64
 
-## How can I build the app for iOS?
-In this case, it is harder. Indeed, you need to know either Swift or Objective-C, because there are some native implementations that the app uses (file saving, file opening, saving preferences and getting preferences). But either way, I won't support iOS because it is much harder to install IPA files than APK and I can't cover the cost to publish the app to the App Store.
-
 ## Will this app support desktop?
-When the flutter support for desktop will be stable enough, sure, for now you can use the webapp, which is the almost same of the native app.
+a separated client is in the works!
 
 ## Credits
 - [Material.io icons](https://material.io/resources/icons) for the `cloud` icon used in the logo
